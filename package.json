@@ -7,14 +7,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "start": "pm2 start index.js",
-    "status": "pm2 status"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0",
-    "pm2": "^6.0.5"
+    "express": "^5.1.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
